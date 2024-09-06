@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+.aside-section {
+  border: 1px solid red;
+  height: 30rem;
+  width: 20rem;
+  float: right;
+  margin-right: 2rem;
+}
+.stockValueContainer {
+  display: flex;
+  flex-direction: column;
+}
+.stockValueWrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.stockNames > button {
+  float: left;
+  padding: 0.3rem 0.5rem;
+}
+.summary-section{
+    border: 1px solid green;
+    width: 70%;
+    position: relative;
+    bottom: 0px;
+    left: 2rem;
+}
+.summaryStockName{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
